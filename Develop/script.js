@@ -21,6 +21,8 @@ const lower = "abcdefghijklmnopqrstuvwxyz";
 const number = "0123456789";
 const symbol = ' !"#$%&()*+,-./:;<=>?@[\]^_`{|}~';
 
+
+
 function generatePassword() {
   var  chars = upper + lower + number + symbol;
   var passwordLength = 12;
